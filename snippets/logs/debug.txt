@@ -1,0 +1,17 @@
+2024-10-30 15:18:00,548 - __main__ - ERROR - program terminated:name 'obs2' is not defined
+Traceback (most recent call last):
+  File "cli.py", line 62, in <module>
+    test_cases = generator.generate(args.budget)
+  File "/src/generator/snippets/test_generator.py", line 47, in generate
+    obs2 - Obstacle(size, position)
+NameError: name 'obs2' is not defined
+2024-10-30 15:18:19,516 - __main__ - ERROR - program terminated:[Errno 2] No such file or directory: './generated_tests/30-10-15-18-19/'
+Traceback (most recent call last):
+  File "cli.py", line 66, in <module>
+    os.mkdir(tests_fld)
+FileNotFoundError: [Errno 2] No such file or directory: './generated_tests/30-10-15-18-19/'
+2024-10-30 15:19:53,497 - __main__ - ERROR - program terminated:[Errno 2] No such file or directory: './generated_tests/30-10-15-19-53/'
+Traceback (most recent call last):
+  File "cli.py", line 66, in <module>
+    os.mkdir(tests_fld)
+FileNotFoundError: [Errno 2] No such file or directory: './generated_tests/30-10-15-19-53/'
